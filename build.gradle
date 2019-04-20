@@ -30,6 +30,9 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	compile group: "com.google.protobuf", name: "protobuf-java", version: "2.6.1"
+	compile group: "com.googlecode.protobuf-java-format", name: "protobuf-java-format", version: "1.4"
 }
 
 jar {
